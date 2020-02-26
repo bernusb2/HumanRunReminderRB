@@ -57,7 +57,7 @@ while(1):
         if ret_speed_cmds < 1:
             print('Mark Saline Line')
             playAlarm('Alarm')
-            #break
+            break
 
 ##Wait to watch all of those elements until we have entered the first Draw (evidenced by Cent Motor at full speed)
 while (1):
